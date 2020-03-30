@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "testEBIn.js",
         "cursor": {
-          "lineNumber": 2,
-          "column": 5
+          "lineNumber": 3,
+          "column": 54
         },
         "config": {
           "runtime": "nodejs10.x",
@@ -44,7 +44,7 @@
           "eventBusName": "default",
           "eventPattern": {
             "source": [
-              "aws.s3"
+              "aws.health"
             ]
           },
           "patternType": 0
@@ -77,7 +77,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1585540362245
+    "lastSave": 1585540565577
   },
   "VCS_STATE": {
     "provider": "GitHub",
