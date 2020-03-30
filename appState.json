@@ -1,0 +1,89 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "9bbff95e-1808-4ed1-8595-f1eb67887606": {
+        "id": "9bbff95e-1808-4ed1-8595-f1eb67887606",
+        "parent": null,
+        "name": "testEBIn.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "testEBIn.js",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 5
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "cwetestInd",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "openFiles": [
+      "9bbff95e-1808-4ed1-8595-f1eb67887606"
+    ],
+    "currentFileId": "9bbff95e-1808-4ed1-8595-f1eb67887606",
+    "resources": {
+      "cwetestInd": {
+        "name": "cwetestInd",
+        "type": "CLOUD_WATCH",
+        "config": {
+          "mode": 0,
+          "name": "testInd",
+          "description": "",
+          "eventBusName": "default",
+          "eventPattern": {
+            "source": [
+              "aws.s3"
+            ]
+          },
+          "patternType": 0
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "testEBIn",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1585540362245
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "testebin",
+      "url": "https://github.com/Indunil1992/testebin"
+    }
+  }
+}
